@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Taka' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- ここからヘッダー -->
+    <header id="navigation">
+      <h1 id="logo"><a href="index.html">Taka's<br>Portfolio</a></h1>
+      <nav>
+        <ul>
+          <li><a class="nav-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-item" href="#profile">profile</a></li>
+          <li><a class="nav-item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ここからメイン -->
+    <main>
+      <div class="banner-color">
+        <img id="top-banner" class="img-width" src="img/greece.jpg" alt="">
+      </div>
+      <!-- ここからポートフォリオ -->
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <section class="web-site">
+          <h3>Web Site</h3>
+          <div class="item item-1">
+              <h4><a href="salon/index.html">Salon</a></h4>
+              <div class="site-image">
+              <a href="salon/index.html">
+                <img src="img/salon.png" alt="Salon">
+                <div class="site-overview">
+                <p>美容院のホームページ<br>
+                スタイリッシュな仕上がり</p>
+                </div>
+              </a>
+          </div>
+          </div>
+          <div class=" item item-2">
+
+            <h4><a href="clinic/index.html">Clinic</a></h4>
+            <div class="site-image">
+            <a href="clinic/index.html">
+              <img src="img/clinic.png" alt="Clinic">
+              <div class="site-overview">
+              <p>病院のホームページ<br>
+                やさしい雰囲気の仕上がり</p>
+              </div>
+            </a>
+          </div>
+          </div>
+        </section>
+        <!-- <section class="application">
+          <h3>Web Application</h3>
+        </section> -->
+      </section>
+      <!-- ここからプロフィール -->
+      <section id="profile">
+        <h2>Profile</h2>
+        <section class="my-profile">
+          <div class="icon-container">
+              <img class="profile-icon" src="img/illust01.jpg" alt="illust">
+          </div>
+          <p class="my-name">Taka.I</p>
+          <p>金融業界で営業を約10年経験後<br>WEB系ITエンジニアとして活動</p>
+          <p>京都在住　妻と息子と暮らしています。</p>
+          <p>【基本習得】<br>
+          PHP.MySQL/HTML/CSS/JavaScript.jQuery/Git/ローカル開発環境設定</p>
+          <p>【開発環境】<br>
+            Atom/XAMPP</p>
+          <p>【勉強中】<br>
+          PHP.MySQL/JavaScript.jQuery</p>
+          <p>【習得予定言語】<br>
+          Laravel/Vue.js/Bootstrap</p>
+        </section>
+        <section class="my-skill">
+          <h3>My Skill</h3>
+          <div class="skill-container">
+            <div class="skill">
+              <div>
+                <img class="skill-logo" src="img/php-sql.jpg" alt="php-sql">
+              </div>
+              <h4>PHP / MySQL</h4>
+              <p>PHPを用いたWEBアプリケーションの作成</p>
+            </div>
+            <div class="skill">
+              <div>
+                <img class="skill-logo" src="img/html-css.jpg" alt="html-css">
+              </div>
+              <h4>HTML5 / CSS3</h4>
+              <p>HTML/CSSのコーディング<br>スマホでもページが崩れないレスポンシブデザインも対応</p>
+            </div>
+            <div class="skill">
+              <div>
+                <img class="skill-logo" src="img/js-jquery.jpg" alt="js-jquery">
+              </div>
+                <h4>JavaScript / jQuery</h4>
+                <p>主にjQueryを使用して動きのあるWEBサイトの作成にも対応</p>
+            </div>
+
+          </div>
+        </section>
+      </section>
+      <!-- ここからCONTACT -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <div class="form-group">
+            <label>
+              お名前<span class="error-text"></span>
+              <input class="valid-text" type="text" name="name"><br>
+            </label>
+          </div>
+          <div class="form-group">
+            <label>E-mail<span class="error-text"></span>
+              <input class="valid-email" type="text" name="email"><br>
+            </label>
+          </div>
+          <div class="form-group">
+            <label>お問い合わせ内容<span class="error-text"></span>
+              <textarea id="js-counter" class="valid-textarea" name="comment" rows="8" cols="80"></textarea>
+            </label>
+          </div>
+          <div class="text-counter">
+            <span class="show-counter">0</span>/100<br>
+          </div>
+            <input type="submit" name="submit" value="送信">
+        </form>
+      </section>
+      <!-- スクロールボタン -->
+      <div id="scroll-icon">
+        <i class="fas fa-chevron-circle-up fa-2x"></i>
+      </div>
+    </main>
+    <!-- ここからフッター -->
+    <footer>
+      <div class="social">
+        <a class="twitter" href="index.html" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+      </div>
+      <div class="copyright">
+        <h5>Copyright(C) <a href="index.html">Taka's Portfolio</a> All Rights Reserved.</h5>
+     </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
