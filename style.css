@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+}
+
+h2 {
+  margin: 0px auto 50px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  margin: 80px auto;
+  font-size: 24px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.img-width {
+  width: 100%;
+  opacity: 0.1;
+  transition: 4s;
+}
+
+.show {
+  opacity: 1;
+}
+
+#navigation {
+  display: none;
+}
+
+.banner-color {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+  z-index:2;
+}
+
+#logo {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 10%;
+  float: left;
+}
+
+header nav {
+  padding-right: 10%;
+  float: right;
+}
+
+header ul {
+  overflow: hidden;
+  margin-top: 33px;
+}
+
+header li {
+  padding: 30px;
+  font-size: 18px;
+  float: left;
+}
+
+header li:last-child {
+  padding-right: 5px;
+}
+
+header li a {
+  display: inline-block;
+}
+
+#portfolio {
+  padding: 125px 10%;
+  background: #F0FFFF;
+}
+
+#profile {
+  padding: 125px 10%;
+  background: #E6FFE9;
+  text-align: center;
+}
+
+#contact {
+  padding: 125px 10%;
+  background: #F0FFFF;
+}
+
+.web-site {
+  overflow: hidden;
+}
+
+.web-site a:hover {
+  border-bottom: 1px solid #222;
+}
+
+.item {
+  width: 50%;
+  padding: 0 3%;
+  float:left;
+  box-sizing: border-box;
+}
+
+.site-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.site-overview p {
+  padding-top: 20%;
+  color: #fff;
+}
+
+.site-overview {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  background: rgba(0,0,0,0.4);
+  transition: 0.8s;
+}
+
+.site-image:hover .site-overview {
+  opacity: 1;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item-1 {
+  /* background:#FFFFCC; */
+}
+
+.item-2 {
+  /* background: #FFCCFF; */
+}
+
+.my-profile h3 {
+  margin-top: 20px;
+}
+
+.profile-icon {
+  border-radius: 100px;
+}
+
+.my-name {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.skill-container {
+  overflow: hidden;
+}
+
+.skill {
+  width: 33.3%;
+  padding:0 3%;
+  float: left;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.skill-logo {
+  width: 100%;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #A7F1FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  margin-top: -20px;
+  padding: 10px 30px;
+  color: #222;
+  background: #A7F1FF;
+  font-size: 18px;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background: #00aced;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* バリデーションsuccess時 */
+.success input, .success textarea {
+  border: 1px solid #2fb4ce;
+}
+
+.success label {
+  color: #222;
+}
+/* バリデーションerror時 */
+.error input, .error textarea {
+  border: 1px solid #ff4d4b;
+}
+
+.error label {
+  color: #ff4d4b;
+}
+
+.text-counter {
+  text-align: right;
+}
+
+#scroll-icon {
+  position: fixed;
+  right: 5%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.fa-chevron-circle-up {
+  color: #66CCFF;
+}
+
+footer .twitter {
+  color: #00aced;
+}
+
+footer .twitter:hover {
+  color: #0086B7;
+}
+
+footer {
+  height: 200px;
+  /* background: #CEF9DC; */
+  background: #A7F1FF;
+  text-align: center;
+}
+
+.social {
+  padding-top: 60px;
+}
